@@ -1,6 +1,6 @@
 import React from 'react'
-import 'Intro.css'
-import Logo from '../assets/  '
+import './intro.css'
+import Logo from '../assets/logo.png'
 function Intro() {
   return (
     <div className='intro'>
