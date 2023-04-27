@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <div className='logo'>
-        
+        <img src="../assets/logo.png" alt="logo" />
       </div>
 
       <div className='others'>
