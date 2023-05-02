@@ -1,13 +1,99 @@
-body {
+* {
+  /* Setting for default styling of entire website */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0; /*This is an css property which is used to create borders here outline: 0 will remove all existing borders*/
+  box-sizing: border-box; /*It decides the way browser calculates or considers height, width, border, margin, padding*/
+  list-style: none; /*Removing default styling from all list components*/
+  text-decoration: none; /*Removing underlining*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /*:root{} is use to declare variables in css. which can be used anywhere in the website*/
+  /*declaration of all the colors required in the project*/
+  --color-bg : #fff;
+  --color-primary : #38587E;
+  --color-secondary : #EAF1F7;
+  --color-secondary-variant : #A6C3E0;
+  --color-white: #fff;
+
+  /*This property allows smooth change of properties between a time period*/
+  --transition: all 400ms ease;
+
+   /* Sizing for different devices */
+   --container-width-lg:70%;
+   --container-width-md:86%;
+   --container-width-sm:90%;
 }
+
+html {
+  /* To make scrolling smooth between the elements of scrolling box */
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  /*Removing Scrollbar , This property allows us to modify the properties of the browser scrollbar */
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  line-height: 1.1;
+}
+
+/*other stlyings*/
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1 ,h2, h3, h4, h5 {
+  font-weight:500;
+}
+
+h1 {
+  font-size:2.5rem;
+}
+
+a {
+  color: var(--color-secondary);
+  transition:var(--transition)
+}
+
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-secondary-variant);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background:var(--color-white);
+  color:var(--color-primary);
+  border-color:transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+img {
+  display:block;
+  width:100%;
+  object-fit:cover;
+}
+
+/* MEDIA QUERY (MEDIUM DEVICES) */
