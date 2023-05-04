@@ -31,7 +31,12 @@ function Footer() {
           <li>Contact Us</li>
         </ul>
       </div>
-      <p>Copyright &c</p>
+      <div  className='name'>
+        <p>Legal Summarizer</p>
+      </div>
+      <div className='copyright'>
+        <p>Copyright &copy; By LegalSummarizer.com | All Rights Reserved</p>
+      </div>
     </div>
   )
 }
