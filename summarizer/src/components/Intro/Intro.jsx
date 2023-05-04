@@ -24,7 +24,11 @@ function Intro() {
             </p>
           </div>
           <div className="summarize_btn">
-            <button className="i-button"><h3>Start Summarizing</h3></button>
+              <button className="i-button">
+            <a href="#summarizer">
+                <h3>Start Summarizing</h3>
+            </a>
+              </button>
           </div>
         </div>
         <div className="i-right">
@@ -35,7 +39,7 @@ function Intro() {
           />
         </div>
       </div>
-      <Feature/>
+      <Feature />
     </div>
   );
 }

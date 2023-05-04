@@ -2,3 +2,7 @@
     margin-left:20vw ;
     width: 60vw;
 }
+
+a {
+    color: var(--color-primary);
+}

@@ -3,11 +3,21 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 20vh;
+    color:var(--color-primary);
 }
 
 .about_left {
-    width: 35w;
+    position: relative;
+    left: 5vw;
+    width: 35vw;
 }
 .about_right {
     width: 35vw;
+    margin-right: 10vh;
+}
+
+.about_vedio {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }

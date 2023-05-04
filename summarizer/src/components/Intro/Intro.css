@@ -36,7 +36,7 @@ p{
 
 .i-button {
     width: 15vw;
-    height: 3vh;
+    height: 4vh;
     background: var(--color-secondary);
     color: var(--color-primary);
     border-radius: 20px;
