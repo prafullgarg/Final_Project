@@ -1,0 +1,13 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.about_left {
+    width: 35w;
+}
+.about_right {
+    width: 35vw;
+}

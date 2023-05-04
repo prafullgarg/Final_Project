@@ -1,0 +1,17 @@
+.feature_container {
+    width: 60vw;
+    margin-top: 12vh;
+    margin-left: 20vw;
+    background:var(--color-secondary-variant) ;
+    color:var(--color-primary)
+}
+
+.features {
+    display: flex;
+}
+
+.features li {
+    padding: 5px;
+    border-left:1px solid black ;
+    border-right:1px solid black ;
+}

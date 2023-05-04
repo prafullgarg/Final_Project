@@ -1,0 +1,12 @@
+.summarizer{
+    height: 100vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.summarizer_form{
+    width: 40vw;
+    display: flex;
+}
+
