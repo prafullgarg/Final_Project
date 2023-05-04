@@ -6,7 +6,6 @@ const Summarizer = () => {
   const [summary,setSummary]=useState("")
 
   const handleChange = (event) => {
-    // console.log("text is changing")
     setText(event.target.value);
   };
   const clear = () => {
@@ -20,6 +19,12 @@ const Summarizer = () => {
     navigator.clipboard.writeText(text);
   };
   const handleSummarize = () => {
+    const t =text
+    setSummary(t)
+    
+      };
+  const handleSummary = () => {
+    setSummary(text)
       };
 
   return (
@@ -58,13 +63,13 @@ const Summarizer = () => {
           </div>
         </div>
         <div className="summarizer_form1">
-          <textarea id="myBox2" value={summary} ></textarea>
+          <textarea id="myBox2" value={summary.slice(0,500)} onChange={handleSummary} ></textarea>
           <div className="form2_description">
             <p>
               <h4>
                 words:
                 {
-                  text.split(/\s+/).filter((element) => {
+                  summary.split(/\s+/).filter((element) => {
                     return element.length !== 0;
                   }).length
                 }
