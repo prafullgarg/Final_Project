@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--color-primary);
+    color:var(--color-secondary);
+}
+
+/* .logo{
+    width: 20vh;
+    height: 20vh;
+} */
+
+img{
+    max-width: max-content;
+    max-height: max-content;
+}
