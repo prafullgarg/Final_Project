@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Feature from "../Features/Feature";
 import "./Intro.css";
 import Logo from "../../assets/logo.png";
 import Supreme_court_img from "../../assets/Supreme_court_img.jpg";
@@ -23,7 +24,7 @@ function Intro() {
             </p>
           </div>
           <div className="summarize_btn">
-            <button className="button i-button">Start Summarizing</button>
+            <button className="i-button"><h3>Start Summarizing</h3></button>
           </div>
         </div>
         <div className="i-right">
@@ -34,6 +35,7 @@ function Intro() {
           />
         </div>
       </div>
+      <Feature/>
     </div>
   );
 }

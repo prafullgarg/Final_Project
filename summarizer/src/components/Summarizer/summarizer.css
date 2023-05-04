@@ -1,0 +1,70 @@
+.summarizer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.summarizer_body {
+  height: 80vh;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.summarizer_form1 {
+  width: 29.5vw;
+  display: flex;
+  flex-direction: column;
+}
+.form1_description {
+  display: flex;
+}
+
+.form2_description {
+  display: flex;
+}
+
+textarea {
+  width: 29.5vw;
+  height: 70vh;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--color-secondary-variant);
+  color: var(--color-primary);
+}
+
+.form1_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons1 {
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form2_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+Button {
+  width: 7vw;
+  padding: 5px;
+  color: var(--color-primary);
+  background: var(--color-secondary-variant);
+  border-radius: 20px;
+}
+
+.btn-summarize {
+    width: 8vw ;
+    margin-left: 26.5vw;
+
+}
