@@ -1,6 +1,7 @@
 .home_container{
     margin-left:20vw ;
     width: 60vw;
+    color: var(--color-primary);
 }
 
 a {
