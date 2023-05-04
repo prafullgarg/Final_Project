@@ -23,7 +23,7 @@ const Summarizer = () => {
       };
 
   return (
-    <div className="summarizer">
+    <div className="summarizer" id="summarizer">
       <div className="summarizer_body">
         <div className="summarizer_form1">
           <textarea id="myBox1" value={text} onChange={handleChange}></textarea>

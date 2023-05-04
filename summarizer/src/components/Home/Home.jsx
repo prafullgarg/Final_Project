@@ -15,11 +15,8 @@ function Home() {
     <div className="home_container">
     <About/>
     <Summarizer/>
-    <Services/>
-    <Workflow/>
     </div>
     <Footer/>
-    <></>
     </div>
   )
 }
