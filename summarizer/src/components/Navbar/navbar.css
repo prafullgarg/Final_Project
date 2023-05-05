@@ -10,6 +10,13 @@
     padding-bottom: 20px;
 }
 
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .logo{
 width: 10vh;
 height: 10vh;

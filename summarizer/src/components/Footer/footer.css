@@ -1,6 +1,16 @@
-.footer {
+.main{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
     background-color: var(--color-primary);
     color:var(--color-secondary);
+}
+
+.footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo1{
@@ -16,25 +26,33 @@ img{
 }
 
 .menu_items_main{
-    /* display: inline-block; */
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
 }
-
+/* 
 .nav_items_list1{
     width: 100%;
     margin-top: 5vh;
     display: flex;
+    flex-direction: column;
+    height: 15vh;
     justify-content: space-evenly;
     align-items: center;
-    font-weight: bolder;
-    font-size: x-large;
-}
+    font-weight: lighter;
+} */
 
 .nav_items_list2{
     width: 100%;
     margin-top: 5vh;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center baseline;
     font-weight: lighter;
 }
 
@@ -42,8 +60,11 @@ img{
     width: 100%;
     margin-top: 5vh;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center baseline;
     font-weight: lighter;
 }
 
@@ -52,8 +73,11 @@ img{
     margin-top: 5vh;
     padding-bottom: 5vh;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center baseline;
     font-weight: lighter;
 }
 
@@ -69,4 +93,5 @@ img{
     display: inline-block;
     width: 80%;
     padding-left: 35vh;
+    margin-left: 14vw;
 }
